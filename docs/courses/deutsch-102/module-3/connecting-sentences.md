@@ -10,6 +10,7 @@ import Pronunciation from '@site/src/components/Pronunciation';
 import { ProgressProvider } from '@site/src/components/ProgressTracker/ProgressContext';
 import ProgressBar from '@site/src/components/ProgressTracker/ProgressBar';
 import LessonCompletion from '@site/src/components/ProgressTracker/LessonCompletion';
+import PresentLesson from '@site/src/components/PresentLesson';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -19,131 +20,255 @@ import TabItem from '@theme/TabItem';
 
 # Connecting Sentences: Subordinating Conjunctions
 
-In this lesson, you'll learn how to connect main and dependent clauses using subordinating conjunctions in German. This is an essential skill for expressing complex ideas and relationships between different parts of a sentence.
+<PresentLesson title="Connecting Sentences - Subordinating Conjunctions">
+  <section name="Introduction">
+    ## Introduction
+    In this lesson, you'll learn how to connect main and dependent clauses using subordinating conjunctions in German. This is an essential skill for expressing complex ideas and relationships between different parts of a sentence.
+  </section>
 
-## Basic Vocabulary
+  <section name="Basic Vocabulary">
+    ## Basic Vocabulary
+    ### Health and Fitness Vocabulary
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | gesund | healthy | [ɡəˈzʊnt] |
+    | fit | fit | [fɪt] |
+    | Sport treiben | to do sports | [ʃpɔʁt ˈtʁaɪ̯bən] |
+    | sich bewegen | to move/exercise | [zɪç bəˈveːɡən] |
+    | ausgewogen | balanced | [ˈaʊ̯sɡəˌvoːɡən] |
+  </section>
 
-<div className="lesson-content">
+  <section name="Main Clauses">
+    ## Understanding Main and Dependent Clauses
+    ### Main Clause (Hauptsatz)
+    - Can stand alone as a complete sentence
+    - Contains a conjugated verb in second position
+    - Example: "Ich treibe Sport." (I do sports.)
+  </section>
 
-### Health and Fitness Vocabulary
+  <section name="Dependent Clauses">
+    ### Dependent Clause (Nebensatz)
+    - Cannot stand alone
+    - Begins with a subordinating conjunction
+    - Contains a conjugated verb at the end
+    - Example: "weil ich gesund bleiben möchte" (because I want to stay healthy)
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| gesund | healthy | [ɡəˈzʊnt] |
-| fit | fit | [fɪt] |
-| Sport treiben | to do sports | [ʃpɔʁt ˈtʁaɪ̯bən] |
-| sich bewegen | to move/exercise | [zɪç bəˈveːɡən] |
-| ausgewogen | balanced | [ˈaʊ̯sɡəˌvoːɡən] |
+    :::note Important Rule
+    A comma always separates the main clause from the dependent clause in German.
+    :::
+  </section>
 
-<AudioPlayer src="/audio/connecting-sentences/health-vocabulary.mp3" />
+  <section name="Common Conjunctions 1">
+    ## Common Subordinating Conjunctions
+    Let's learn four frequently used subordinating conjunctions in German:
 
-</div>
+    1. **dass** (that)
+       - Used to introduce a fact or statement
+       - Example: "Ich glaube, dass Sport wichtig ist." (I believe that exercise is important.)
 
-## Lesson
+    2. **ob** (whether, if)
+       - Used for yes/no questions
+       - Example: "Ich frage mich, ob ich heute Sport treiben soll." (I wonder if I should exercise today.)
+  </section>
 
-### Understanding Main and Dependent Clauses
+  <section name="Common Conjunctions 2">
+    3. **weil** (because)
+       - Expresses cause or reason
+       - Example: "Ich bin müde, weil ich heute viel Sport getrieben habe." (I am tired because I exercised a lot today.)
 
-Let's start by reviewing the difference between main and dependent clauses in English, which will help us understand how they work in German.
+    4. **wenn** (whenever, if)
+       - Expresses conditions or repeated events
+       - Example: "Wenn ich Sport treibe, fühle ich mich besser." (Whenever I exercise, I feel better.)
+  </section>
 
-#### Main Clause (Hauptsatz)
-- Can stand alone as a complete sentence
-- Contains a conjugated verb in second position
-- Example: "Ich treibe Sport." (I do sports.)
+  <section name="Word Order Rules">
+    ## Word Order in Subordinate Clauses
+    :::note Important Rule
+    In a subordinate clause:
+    - The conjugated verb goes to the end
+    - If the dependent clause comes first, the main clause begins with the conjugated verb
+    :::
+  </section>
 
-#### Dependent Clause (Nebensatz)
-- Cannot stand alone
-- Begins with a subordinating conjunction
-- Contains a conjugated verb at the end
-- Example: "weil ich gesund bleiben möchte" (because I want to stay healthy)
+  <section name="Word Order Examples">
+    ### Examples:
+    :::practice-box
+    **Example 1:** Weil ich gesund bleiben möchte, treibe ich regelmäßig Sport.  
+    **Translation:** Because I want to stay healthy, I exercise regularly.
+    :::
 
-:::note Important Rule
-A comma always separates the main clause from the dependent clause in German.
-:::
+    :::practice-box
+    **Example 2:** Ich treibe regelmäßig Sport, weil ich gesund bleiben möchte.  
+    **Translation:** I exercise regularly because I want to stay healthy.
+    :::
+  </section>
 
-### Common Subordinating Conjunctions
+  <section name="Separable Prefix Verbs">
+    ## Separable Prefix Verbs in Subordinate Clauses
+    :::tip Grammar Tip
+    When using separable prefix verbs in a subordinate clause, the prefix stays with the verb at the end.
+    :::
+  </section>
 
-Let's learn four frequently used subordinating conjunctions in German:
+  <section name="Separable Prefix Examples">
+    ### Examples:
+    :::practice-box
+    **Example 1:** Ich fühle mich besser, wenn ich aufstehe und Sport treibe.  
+    **Translation:** I feel better when I get up and exercise.
+    :::
 
-1. **dass** (that)
-   - Used to introduce a fact or statement
-   - Example: "Ich glaube, dass Sport wichtig ist." (I believe that exercise is important.)
+    :::practice-box
+    **Example 2:** Wenn ich aufstehe und Sport treibe, fühle ich mich besser.  
+    **Translation:** When I get up and exercise, I feel better.
+    :::
+  </section>
 
-2. **ob** (whether, if)
-   - Used for yes/no questions
-   - Example: "Ich frage mich, ob ich heute Sport treiben soll." (I wonder if I should exercise today.)
+  <section name="Indirect Questions">
+    ## Indirect Questions
+    Indirect questions are formed using interrogative pronouns that function like subordinating conjunctions. The conjugated verb goes to the end.
 
-3. **weil** (because)
-   - Expresses cause or reason
-   - Example: "Ich bin müde, weil ich heute viel Sport getrieben habe." (I am tired because I exercised a lot today.)
+    ### Common Interrogative Pronouns:
+    - was (what)
+    - wann (when)
+    - wo (where)
+    - wie (how)
+    - warum (why)
+  </section>
 
-4. **wenn** (whenever, if)
-   - Expresses conditions or repeated events
-   - Example: "Wenn ich Sport treibe, fühle ich mich besser." (Whenever I exercise, I feel better.)
+  <section name="Indirect Question Examples">
+    ### Examples:
+    :::practice-box
+    **Example 1:** Ich frage mich, wie ich fitter werden kann.  
+    **Translation:** I wonder how I can get fitter.
+    :::
 
-### Word Order in Subordinate Clauses
+    :::practice-box
+    **Example 2:** Ich weiß nicht, wann ich Zeit zum Sport treiben habe.  
+    **Translation:** I don't know when I have time to exercise.
+    :::
+  </section>
+</PresentLesson>
 
-:::note Important Rule
-In a subordinate clause:
-- The conjugated verb goes to the end
-- If the dependent clause comes first, the main clause begins with the conjugated verb
-:::
+<PresentLesson title="Extended Study: Deep Dive into Subordinating Conjunctions">
+  <section name="Extended Study Introduction">
+    ## Extended Study
+    Let's dive deeper into the concepts of subordinating conjunctions and sentence structure in German.
+  </section>
 
-#### Examples:
+  <section name="Extended Study Main Dependent Clauses">
+    ### Understanding Main and Dependent Clauses
 
-<div className="practice-box">
-  **Example 1:** Weil ich gesund bleiben möchte, treibe ich regelmäßig Sport.  
-  **Translation:** Because I want to stay healthy, I exercise regularly.
-</div>
+    Let's start by reviewing the difference between main and dependent clauses in English, which will help us understand how they work in German.
 
-<div className="practice-box">
-  **Example 2:** Ich treibe regelmäßig Sport, weil ich gesund bleiben möchte.  
-  **Translation:** I exercise regularly because I want to stay healthy.
-</div>
+    #### Main Clause (Hauptsatz)
+    - Can stand alone as a complete sentence
+    - Contains a conjugated verb in second position
+    - Example: "Ich treibe Sport." (I do sports.)
 
-### Separable Prefix Verbs in Subordinate Clauses
+    #### Dependent Clause (Nebensatz)
+    - Cannot stand alone
+    - Begins with a subordinating conjunction
+    - Contains a conjugated verb at the end
+    - Example: "weil ich gesund bleiben möchte" (because I want to stay healthy)
 
-:::tip Grammar Tip
-When using separable prefix verbs in a subordinate clause, the prefix stays with the verb at the end.
-:::
+    :::note Important Rule
+    A comma always separates the main clause from the dependent clause in German.
+    :::
+  </section>
 
-#### Examples:
+  <section name="Extended Study Conjunctions">
+    ### Common Subordinating Conjunctions
 
-<div className="practice-box">
-  **Example 1:** Ich fühle mich besser, wenn ich aufstehe und Sport treibe.  
-  **Translation:** I feel better when I get up and exercise.
-</div>
+    Let's learn four frequently used subordinating conjunctions in German:
 
-<div className="practice-box">
-  **Example 2:** Wenn ich aufstehe und Sport treibe, fühle ich mich besser.  
-  **Translation:** When I get up and exercise, I feel better.
-</div>
+    1. **dass** (that)
+       - Used to introduce a fact or statement
+       - Example: "Ich glaube, dass Sport wichtig ist." (I believe that exercise is important.)
 
-### Indirect Questions
+    2. **ob** (whether, if)
+       - Used for yes/no questions
+       - Example: "Ich frage mich, ob ich heute Sport treiben soll." (I wonder if I should exercise today.)
 
-Indirect questions are formed using interrogative pronouns that function like subordinating conjunctions. The conjugated verb goes to the end.
+    3. **weil** (because)
+       - Expresses cause or reason
+       - Example: "Ich bin müde, weil ich heute viel Sport getrieben habe." (I am tired because I exercised a lot today.)
 
-#### Common Interrogative Pronouns:
-- was (what)
-- wann (when)
-- wo (where)
-- wie (how)
-- warum (why)
+    4. **wenn** (whenever, if)
+       - Expresses conditions or repeated events
+       - Example: "Wenn ich Sport treibe, fühle ich mich besser." (Whenever I exercise, I feel better.)
+  </section>
 
-#### Examples:
+  <section name="Extended Study Word Order">
+    ### Word Order in Subordinate Clauses
 
-<div className="practice-box">
-  **Example 1:** Ich frage mich, wie ich fitter werden kann.  
-  **Translation:** I wonder how I can get fitter.
-</div>
+    :::note Important Rule
+    In a subordinate clause:
+    - The conjugated verb goes to the end
+    - If the dependent clause comes first, the main clause begins with the conjugated verb
+    :::
 
-<div className="practice-box">
-  **Example 2:** Ich weiß nicht, wann ich Zeit zum Sport treiben habe.  
-  **Translation:** I don't know when I have time to exercise.
-</div>
+    #### Examples:
 
-:::note Grammar Note
-Indirect questions follow the same word order rules as dependent clauses - the conjugated verb goes to the end.
-:::
+    :::practice-box
+    **Example 1:** Weil ich gesund bleiben möchte, treibe ich regelmäßig Sport.  
+    **Translation:** Because I want to stay healthy, I exercise regularly.
+    :::
+
+    :::practice-box
+    **Example 2:** Ich treibe regelmäßig Sport, weil ich gesund bleiben möchte.  
+    **Translation:** I exercise regularly because I want to stay healthy.
+    :::
+  </section>
+
+  <section name="Extended Study Separable Prefix">
+    ### Separable Prefix Verbs in Subordinate Clauses
+
+    :::tip Grammar Tip
+    When using separable prefix verbs in a subordinate clause, the prefix stays with the verb at the end.
+    :::
+
+    #### Examples:
+
+    :::practice-box
+    **Example 1:** Ich fühle mich besser, wenn ich aufstehe und Sport treibe.  
+    **Translation:** I feel better when I get up and exercise.
+    :::
+
+    :::practice-box
+    **Example 2:** Wenn ich aufstehe und Sport treibe, fühle ich mich besser.  
+    **Translation:** When I get up and exercise, I feel better.
+    :::
+  </section>
+
+  <section name="Extended Study Indirect Questions">
+    ### Indirect Questions
+
+    Indirect questions are formed using interrogative pronouns that function like subordinating conjunctions. The conjugated verb goes to the end.
+
+    #### Common Interrogative Pronouns:
+    - was (what)
+    - wann (when)
+    - wo (where)
+    - wie (how)
+    - warum (why)
+
+    #### Examples:
+
+    :::practice-box
+    **Example 1:** Ich frage mich, wie ich fitter werden kann.  
+    **Translation:** I wonder how I can get fitter.
+    :::
+
+    :::practice-box
+    **Example 2:** Ich weiß nicht, wann ich Zeit zum Sport treiben habe.  
+    **Translation:** I don't know when I have time to exercise.
+    :::
+
+    :::note Grammar Note
+    Indirect questions follow the same word order rules as dependent clauses - the conjugated verb goes to the end.
+    :::
+  </section>
+</PresentLesson>
 
 ## Interactive Practice
 

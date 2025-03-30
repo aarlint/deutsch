@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: "Lesson X: [Lesson Title]"
 description: Brief description of what will be learned in this lesson
 ---
@@ -10,6 +10,7 @@ import Pronunciation from '../../src/components/Pronunciation';
 import { ProgressProvider } from '../../src/components/ProgressTracker/ProgressContext';
 import ProgressBar from '../../src/components/ProgressTracker/ProgressBar';
 import LessonCompletion from '../../src/components/ProgressTracker/LessonCompletion';
+import PresentLesson from '../../src/components/PresentLesson';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -19,62 +20,103 @@ import TabItem from '@theme/TabItem';
 
 # [Lesson Title]
 
-[Introduction paragraph explaining what will be learned and why it's important]
+<PresentLesson title="[Lesson Title]">
+  <section name="Introduction">
+    ## Introduction
+    [Introduction paragraph explaining what will be learned and why it's important]
+  </section>
 
-## Basic Vocabulary
+  <section name="Basic Vocabulary">
+    ## Basic Vocabulary
+    ### [Vocabulary Section Title]
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | [Word] | [Translation] | [IPA Pronunciation] |
 
-<div className="lesson-content">
+    <AudioPlayer src="/audio/[lesson-name]/[audio-file].mp3" />
+  </section>
 
-### [Vocabulary Section Title]
+  <section name="[Concept 1]">
+    ## [Lesson Section 1 Title]
+    [Detailed explanation of the first concept]
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| [Word] | [Translation] | [IPA Pronunciation] |
+    :::note Important Rule
+    - [Key rule or concept]
+    - [Additional rule or concept]
+    :::
+  </section>
 
-<AudioPlayer src="/audio/[lesson-name]/[audio-file].mp3" />
+  <section name="[Concept 2]">
+    ## [Lesson Section 2 Title]
+    [Detailed explanation of the second concept]
 
-</div>
+    :::tip Grammar Tip
+    [Important grammar tip or reminder]
+    :::
+  </section>
+
+  <section name="[Concept 2] Examples">
+    ### Examples
+    :::practice-box
+    **Example 1:** [German sentence]  
+    **Translation:** [English translation]
+    :::
+
+    :::practice-box
+    **Example 2:** [German sentence]  
+    **Translation:** [English translation]
+    :::
+  </section>
+
+  <section name="[Concept 3]">
+    ## [Lesson Section 3 Title]
+    [Detailed explanation of the third concept]
+
+    :::note Grammar Note
+    [Important grammar note]
+    :::
+  </section>
+
+  <section name="Context Examples">
+    ## Using [Topic] in Context
+    :::practice-box
+    **Q:** [Question in German]  
+    **A:** [Answer in German]
+    :::
+
+    :::practice-box
+    **Q:** [Question in German]  
+    **A:** [Answer in German]
+    :::
+  </section>
+
+  <section name="Grammar Notes">
+    ## Grammar Notes
+    :::note Word Order Rules
+    - [Grammar point 1]
+    - [Grammar point 2]
+    - [Grammar point 3]
+    :::
+
+    :::tip Grammar Tips
+    - [Grammar tip 1]
+    - [Grammar tip 2]
+    - [Grammar tip 3]
+    :::
+  </section>
+
+  <section name="Cultural Notes">
+    ## Cultural Notes
+    :::tip Cultural Insight
+    In German-speaking countries:
+    - [Cultural point 1]
+    - [Cultural point 2]
+    - [Cultural point 3]
+    :::
+  </section>
+</PresentLesson>
 
 ## Lesson
-
-### [Lesson Section 1 Title]
-
-[Detailed explanation of the first concept]
-
-:::note Important Rule
-- [Key rule or concept]
-- [Additional rule or concept]
-:::
-
-### [Lesson Section 2 Title]
-
-[Detailed explanation of the second concept]
-
-:::tip Grammar Tip
-[Important grammar tip or reminder]
-:::
-
-### Examples
-
-<div className="practice-box">
-  **Example 1:** [German sentence]  
-  **Translation:** [English translation]
-</div>
-
-<div className="practice-box">
-  **Example 2:** [German sentence]  
-  **Translation:** [English translation]
-</div>
-
-### [Lesson Section 3 Title]
-
-[Detailed explanation of the third concept]
-
-:::note Grammar Note
-[Important grammar note]
-:::
-
-## Interactive Practice
 
 ### 1. [Quiz Title]
 
@@ -100,36 +142,6 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 </Tabs>
 
-## Using [Topic] in Context
-
-### [Context Section 1]
-
-<div className="practice-box">
-  **Q:** [Question in German]  
-  **A:** [Answer in German]
-</div>
-
-### [Context Section 2]
-
-<div className="practice-box">
-  **Q:** [Question in German]  
-  **A:** [Answer in German]
-</div>
-
-## Grammar Notes
-
-:::note [Note Title]
-- [Grammar point 1]
-- [Grammar point 2]
-- [Grammar point 3]
-:::
-
-:::tip Pronunciation Tips
-- [Pronunciation tip 1]
-- [Pronunciation tip 2]
-- [Pronunciation tip 3]
-:::
-
 ## Practice Exercises
 
 ### 1. Speaking Practice
@@ -153,15 +165,6 @@ Write out:
 | German | English | Example |
 |--------|---------|----------|
 | [Word/Phrase] | [Translation] | [Example sentence] |
-
-## Cultural Notes
-
-:::tip Cultural Insight
-In German-speaking countries:
-- [Cultural point 1]
-- [Cultural point 2]
-- [Cultural point 3]
-:::
 
 ## Next Steps
 
