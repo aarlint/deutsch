@@ -33,6 +33,11 @@ jobs:
         run: npm ci
       - name: Build with Docusaurus
         run: npm run build
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build
+          path: build
 
   # Deployment job
   deploy:
@@ -44,6 +49,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Download build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: build
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
