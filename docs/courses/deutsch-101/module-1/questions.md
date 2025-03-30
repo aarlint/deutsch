@@ -10,6 +10,7 @@ import Pronunciation from '../../../../src/components/Pronunciation';
 import { ProgressProvider } from '../../../../src/components/ProgressTracker/ProgressContext';
 import ProgressBar from '../../../../src/components/ProgressTracker/ProgressBar';
 import LessonCompletion from '../../../../src/components/ProgressTracker/LessonCompletion';
+import PresentLesson from '../../../../src/components/PresentLesson';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -19,67 +20,90 @@ import TabItem from '@theme/TabItem';
 
 # Basic Questions and Answers
 
-In this lesson, you'll learn how to ask and answer common questions in German. This is a crucial skill for everyday conversations!
+<PresentLesson title="Basic Questions and Answers">
+  <section name="Introduction">
+    ## Introduction
+    In this lesson, you'll learn how to ask and answer common questions in German. This is a crucial skill for everyday conversations!
+  </section>
 
-## Essential Question Words
+  <section name="Question Words">
+    ## Essential Question Words
+    ### Basic Question Words
+    | German | English | Example |
+    |--------|---------|----------|
+    | Was? | What? | Was ist das? |
+    | Wer? | Who? | Wer ist das? |
+    | Wo? | Where? | Wo wohnst du? |
+    | Wann? | When? | Wann kommst du? |
+    | Wie? | How? | Wie geht es dir? |
+    | Warum? | Why? | Warum lernst du Deutsch? |
 
-<div className="lesson-content">
+    <Pronunciation word="Was" ipa="vas" />
+    <AudioPlayer src="/audio/questions/question-words.mp3" />
 
-### Basic Question Words
+    :::tip Grammar Tip
+    In German, question words are always placed at the beginning of the sentence, followed by the verb.
+    :::
+  </section>
 
-| German | English | Example |
-|--------|---------|----------|
-| Was? | What? | Was ist das? |
-| Wer? | Who? | Wer ist das? |
-| Wo? | Where? | Wo wohnst du? |
-| Wann? | When? | Wann kommst du? |
-| Wie? | How? | Wie geht es dir? |
-| Warum? | Why? | Warum lernst du Deutsch? |
+  <section name="Common Questions">
+    ## Common Questions and Answers
+    ### Personal Information
+    <Tabs>
+    <TabItem value="name" label="Name" default>
+      **Q:** Wie heißt du?  
+      **A:** Ich heiße Anna.
+    </TabItem>
+    <TabItem value="age" label="Age">
+      **Q:** Wie alt bist du?  
+      **A:** Ich bin 25 Jahre alt.
+    </TabItem>
+    <TabItem value="origin" label="Origin">
+      **Q:** Woher kommst du?  
+      **A:** Ich komme aus Deutschland.
+    </TabItem>
+    </Tabs>
 
-<Pronunciation word="Was" ipa="vas" />
-<AudioPlayer src="/audio/questions/question-words.mp3" />
+    <AudioPlayer src="/audio/questions/personal-info.mp3" />
 
-### Question Formation
+    ### Well-being
+    :::practice-box
+    **Q:** Wie geht es dir?  
+    **A:** Mir geht es gut, danke! Und dir?
 
-:::tip Grammar Tip
-In German, question words are always placed at the beginning of the sentence, followed by the verb.
-:::
+    **Q:** Wie geht es Ihnen?  
+    **A:** Danke, sehr gut!
+    :::
 
-</div>
+    <Pronunciation word="Wie geht es dir" ipa="viː ɡeːt ɛs diːɐ̯" />
+    <AudioPlayer src="/audio/questions/well-being.mp3" />
+  </section>
 
-## Common Questions and Answers
+  <section name="Grammar Notes">
+    ## Grammar Notes
+    :::note Question Structure
+    1. Question word (Was, Wer, Wo, etc.)
+    2. Verb
+    3. Subject (if not the question word)
+    4. Rest of the sentence
+    :::
 
-### Personal Information
+    :::tip Formal vs Informal
+    - Use "du" for informal situations (friends, family)
+    - Use "Sie" for formal situations (business, strangers)
+    :::
+  </section>
 
-<Tabs>
-<TabItem value="name" label="Name" default>
-  **Q:** Wie heißt du?  
-  **A:** Ich heiße Anna.
-</TabItem>
-<TabItem value="age" label="Age">
-  **Q:** Wie alt bist du?  
-  **A:** Ich bin 25 Jahre alt.
-</TabItem>
-<TabItem value="origin" label="Origin">
-  **Q:** Woher kommst du?  
-  **A:** Ich komme aus Deutschland.
-</TabItem>
-</Tabs>
-
-<AudioPlayer src="/audio/questions/personal-info.mp3" />
-
-### Well-being
-
-<div className="practice-box">
-  **Q:** Wie geht es dir?  
-  **A:** Mir geht es gut, danke! Und dir?
-
-  **Q:** Wie geht es Ihnen?  
-  **A:** Danke, sehr gut!
-</div>
-
-<Pronunciation word="Wie geht es dir" ipa="viː ɡeːt ɛs diːɐ̯" />
-<AudioPlayer src="/audio/questions/well-being.mp3" />
+  <section name="Cultural Notes">
+    ## Cultural Notes
+    :::tip Cultural Insight
+    In German-speaking countries:
+    - It's common to ask "Wie geht es dir?" as a greeting
+    - People often share their profession when introducing themselves
+    - Age is not considered a sensitive topic
+    :::
+  </section>
+</PresentLesson>
 
 ## Interactive Practice
 
@@ -120,20 +144,6 @@ In German, question words are always placed at the beginning of the sentence, fo
 
 <AudioPlayer src="/audio/dialogs/questions-dialog.mp3" />
 
-## Grammar Notes
-
-:::note Question Structure
-1. Question word (Was, Wer, Wo, etc.)
-2. Verb
-3. Subject (if not the question word)
-4. Rest of the sentence
-:::
-
-:::tip Formal vs Informal
-- Use "du" for informal situations (friends, family)
-- Use "Sie" for formal situations (business, strangers)
-:::
-
 ## Practice Exercises
 
 ### 1. Speaking Practice
@@ -161,15 +171,6 @@ Write three questions and answers about:
 | Woher kommst du? | Where are you from? | Ich komme aus Deutschland. |
 | Wie geht es dir? | How are you? | Mir geht es gut, danke! |
 | Was machst du? | What do you do? | Ich bin Student. |
-
-## Cultural Notes
-
-:::tip Cultural Insight
-In German-speaking countries:
-- It's common to ask "Wie geht es dir?" as a greeting
-- People often share their profession when introducing themselves
-- Age is not considered a sensitive topic
-:::
 
 ## Next Steps
 

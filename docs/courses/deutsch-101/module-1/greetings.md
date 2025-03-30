@@ -10,6 +10,9 @@ import Pronunciation from '../../../../src/components/Pronunciation';
 import { ProgressProvider } from '../../../../src/components/ProgressTracker/ProgressContext';
 import ProgressBar from '../../../../src/components/ProgressTracker/ProgressBar';
 import LessonCompletion from '../../../../src/components/ProgressTracker/LessonCompletion';
+import PresentLesson from '../../../../src/components/PresentLesson';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 <ProgressProvider>
   <LessonCompletion lessonId="deutsch-101/module-1/greetings" title="Greetings & Introductions" />
@@ -17,58 +20,82 @@ import LessonCompletion from '../../../../src/components/ProgressTracker/LessonC
 
 # Greetings & Introductions
 
-Welcome to your first German lesson! Let's learn how to greet people and introduce yourself.
+<PresentLesson title="Greetings & Introductions">
+  <section name="Introduction">
+    ## Introduction
+    Welcome to your first German lesson! Let's learn how to greet people and introduce yourself.
+  </section>
 
-## Basic Greetings
+  <section name="Basic Greetings">
+    ## Basic Greetings
+    ### Formal Greetings
+    | German | English | Usage |
+    |--------|---------|--------|
+    | Guten Morgen | Good morning | Until ~11:00 |
+    | Guten Tag | Good day/Hello | All day |
+    | Guten Abend | Good evening | After ~18:00 |
+    | Auf Wiedersehen | Goodbye | Formal goodbye |
 
-<div className="lesson-content">
+    <Pronunciation word="Guten Morgen" ipa="ˈɡuːtn̩ ˈmɔʁɡn̩" />
+    <AudioPlayer src="/audio/greetings/guten-morgen.mp3" />
 
-### Formal Greetings
+    ### Informal Greetings
+    | German | English | Usage |
+    |--------|---------|--------|
+    | Hallo | Hello | Any time |
+    | Hi | Hi | Very informal |
+    | Tschüss | Bye | Informal goodbye |
+    | Ciao | Bye | Very informal |
 
-| German | English | Usage |
-|--------|---------|--------|
-| Guten Morgen | Good morning | Until ~11:00 |
-| Guten Tag | Good day/Hello | All day |
-| Guten Abend | Good evening | After ~18:00 |
-| Auf Wiedersehen | Goodbye | Formal goodbye |
+    <Pronunciation word="Hallo" ipa="haˈloː" />
+    <AudioPlayer src="/audio/greetings/hallo.mp3" />
+  </section>
 
-<Pronunciation word="Guten Morgen" ipa="ˈɡuːtn̩ ˈmɔʁɡn̩" />
-<AudioPlayer src="/audio/greetings/guten-morgen.mp3" />
+  <section name="Introductions">
+    ## Introducing Yourself
+    ### Basic Phrases
+    1. **"Ich heiße..."** (My name is...)
+       <Pronunciation word="Ich heiße" ipa="ɪç ˈhaɪ̯sə" />
+       <AudioPlayer src="/audio/introductions/ich-heisse.mp3" />
 
-### Informal Greetings
+    2. **"Ich bin..."** (I am...)
+       <Pronunciation word="Ich bin" ipa="ɪç bɪn" />
+       <AudioPlayer src="/audio/introductions/ich-bin.mp3" />
 
-| German | English | Usage |
-|--------|---------|--------|
-| Hallo | Hello | Any time |
-| Hi | Hi | Very informal |
-| Tschüss | Bye | Informal goodbye |
-| Ciao | Bye | Very informal |
+    ### Practice Dialog
+    🗣️ **Person A:** Guten Tag! Ich bin Anna.  
+    👥 **Person B:** Hallo Anna! Ich heiße Thomas.  
+    🗣️ **Person A:** Freut mich!  
+    👥 **Person B:** Mich auch!
 
-<Pronunciation word="Hallo" ipa="haˈloː" />
-<AudioPlayer src="/audio/greetings/hallo.mp3" />
+    <AudioPlayer src="/audio/dialogs/introduction-dialog.mp3" />
+  </section>
 
-</div>
+  <section name="Grammar Notes">
+    ## Grammar Notes
+    :::note Formal vs Informal
+    - Use "du" for informal situations (friends, family)
+    - Use "Sie" for formal situations (business, strangers)
+    :::
 
-## Introducing Yourself
+    :::tip Pronunciation Tips
+    - "ei" is pronounced like "eye"
+    - "ß" is pronounced like "ss"
+    - "ch" is pronounced like "kh"
+    :::
+  </section>
 
-### Basic Phrases
-
-1. **"Ich heiße..."** (My name is...)
-   <Pronunciation word="Ich heiße" ipa="ɪç ˈhaɪ̯sə" />
-   <AudioPlayer src="/audio/introductions/ich-heisse.mp3" />
-
-2. **"Ich bin..."** (I am...)
-   <Pronunciation word="Ich bin" ipa="ɪç bɪn" />
-   <AudioPlayer src="/audio/introductions/ich-bin.mp3" />
-
-### Practice Dialog
-
-🗣️ **Person A:** Guten Tag! Ich bin Anna.  
-👥 **Person B:** Hallo Anna! Ich heiße Thomas.  
-🗣️ **Person A:** Freut mich!  
-👥 **Person B:** Mich auch!
-
-<AudioPlayer src="/audio/dialogs/introduction-dialog.mp3" />
+  <section name="Cultural Notes">
+    ## Cultural Notes
+    :::tip Cultural Insight
+    In German-speaking countries, it's common to:
+    - Shake hands when meeting someone formally
+    - Be more formal in business settings
+    - Use formal greetings with people you don't know
+    - Say "Grüß Gott" in southern Germany and Austria
+    :::
+  </section>
+</PresentLesson>
 
 ## Interactive Exercises
 
@@ -104,16 +131,6 @@ Complete these introductions:
 2. "Hallo! Ich bin Thomas."
 
 </details>
-
-## Cultural Notes
-
-:::tip Cultural Insight
-In German-speaking countries, it's common to:
-- Shake hands when meeting someone formally
-- Be more formal in business settings
-- Use formal greetings with people you don't know
-- Say "Grüß Gott" in southern Germany and Austria
-:::
 
 ## Practice Tasks
 

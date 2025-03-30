@@ -2,13 +2,14 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import styles from './styles.module.css';
 import { MDXProvider, useMDXComponents } from '@mdx-js/react';
-import { BsDisplay } from 'react-icons/bs';
+import { BsDisplay, BsEye, BsEyeSlash } from 'react-icons/bs';
 
 export default function PresentLesson({ children, title }) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isPresenting, setIsPresenting] = useState(false);
   const [slides, setSlides] = useState([]);
   const [lessonTitle, setLessonTitle] = useState('');
+  const [showSections, setShowSections] = useState(true);
   const components = useMDXComponents();
 
   useEffect(() => {
@@ -98,10 +99,26 @@ export default function PresentLesson({ children, title }) {
             <BsDisplay className={styles.buttonIcon} />
             Present Lesson
           </button>
+          <button
+            className={`${styles.toggleButton} ${!showSections ? styles.hidden : ''}`}
+            onClick={() => setShowSections(!showSections)}
+          >
+            {showSections ? (
+              <>
+                <BsEye className={styles.buttonIcon} />
+                Hide Lesson
+              </>
+            ) : (
+              <>
+                <BsEyeSlash className={styles.buttonIcon} />
+                Show Lesson
+              </>
+            )}
+          </button>
           <div className={`${styles.downLine} ${styles.left}`} />
           <div className={`${styles.downLine} ${styles.right}`} />
         </div>
-        {children}
+        {showSections && children}
       </>
     );
   }

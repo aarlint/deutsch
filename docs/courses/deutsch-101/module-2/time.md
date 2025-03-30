@@ -10,6 +10,7 @@ import Pronunciation from '../../../../src/components/Pronunciation';
 import { ProgressProvider } from '../../../../src/components/ProgressTracker/ProgressContext';
 import ProgressBar from '../../../../src/components/ProgressTracker/ProgressBar';
 import LessonCompletion from '../../../../src/components/ProgressTracker/LessonCompletion';
+import PresentLesson from '../../../../src/components/PresentLesson';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -19,43 +20,111 @@ import TabItem from '@theme/TabItem';
 
 # Telling Time
 
-In this lesson, you'll learn how to tell time in German. This essential skill will help you schedule activities, make appointments, and discuss your daily routine.
+<PresentLesson title="Telling Time">
+  <section name="Introduction">
+    ## Introduction
+    In this lesson, you'll learn how to tell time in German. This essential skill will help you schedule activities, make appointments, and discuss your daily routine.
+  </section>
 
-## Basic Vocabulary
+  <section name="Basic Vocabulary">
+    ## Basic Vocabulary
+    ### Time Expressions
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | die Uhr | clock/watch | [uːɐ̯] |
+    | die Stunde | hour | [ˈʃtʊndə] |
+    | die Minute | minute | [miˈnuːtə] |
+    | die Sekunde | second | [zeˈkʊndə] |
+    | die Zeit | time | [t͡saɪ̯t] |
+    | die Uhrzeit | time (o'clock) | [ˈuːɐ̯t͡saɪ̯t] |
+    | die Viertelstunde | quarter hour | [ˈfɪʁtl̩ˌʃtʊndə] |
+    | die Hälfte | half | [ˈhɛlftə] |
 
-<div className="lesson-content">
+    <AudioPlayer src="/audio/time/time-expressions.mp3" />
 
-### Time Expressions
+    ### Time Indicators
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | morgens | in the morning | [ˈmɔʁɡn̩s] |
+    | mittags | at noon | [ˈmɪtaːks] |
+    | nachmittags | in the afternoon | [ˈnaːxmɪtaːks] |
+    | abends | in the evening | [ˈaːbn̩ts] |
+    | nachts | at night | [naxts] |
+    | heute | today | [ˈhɔɪ̯tə] |
+    | morgen | tomorrow | [ˈmɔʁɡn̩] |
+    | gestern | yesterday | [ˈɡɛstɐn] |
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| die Uhr | clock/watch | [uːɐ̯] |
-| die Stunde | hour | [ˈʃtʊndə] |
-| die Minute | minute | [miˈnuːtə] |
-| die Sekunde | second | [zeˈkʊndə] |
-| die Zeit | time | [t͡saɪ̯t] |
-| die Uhrzeit | time (o'clock) | [ˈuːɐ̯t͡saɪ̯t] |
-| die Viertelstunde | quarter hour | [ˈfɪʁtl̩ˌʃtʊndə] |
-| die Hälfte | half | [ˈhɛlftə] |
+    <AudioPlayer src="/audio/time/time-indicators.mp3" />
+  </section>
 
-<AudioPlayer src="/audio/time/time-expressions.mp3" />
+  <section name="Time Categories">
+    ## Time Categories
+    <Tabs>
+    <TabItem value="parts" label="Parts of the Day" default>
+      ```
+      morgens (morning)
+      mittags (noon)
+      nachmittags (afternoon)
+      abends (evening)
+      nachts (night)
+      ```
+    </TabItem>
+    <TabItem value="units" label="Time Units">
+      ```
+      die Stunde (hour)
+      die Minute (minute)
+      die Sekunde (second)
+      die Viertelstunde (quarter hour)
+      ```
+    </TabItem>
+    </Tabs>
+  </section>
 
-### Time Indicators
+  <section name="Usage Examples">
+    ## Using Time in Context
+    :::practice-box
+    **Q:** Wie spät ist es?  
+    **A:** Es ist drei Uhr.
+    :::
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| morgens | in the morning | [ˈmɔʁɡn̩s] |
-| mittags | at noon | [ˈmɪtaːks] |
-| nachmittags | in the afternoon | [ˈnaːxmɪtaːks] |
-| abends | in the evening | [ˈaːbn̩ts] |
-| nachts | at night | [naxts] |
-| heute | today | [ˈhɔɪ̯tə] |
-| morgen | tomorrow | [ˈmɔʁɡn̩] |
-| gestern | yesterday | [ˈɡɛstɐn] |
+    :::practice-box
+    **Q:** Wann treffen wir uns?  
+    **A:** Wir treffen uns um zwei Uhr.
+    :::
 
-<AudioPlayer src="/audio/time/time-indicators.mp3" />
+    :::practice-box
+    **Q:** Wann stehst du auf?  
+    **A:** Ich stehe um sieben Uhr auf.
+    :::
+  </section>
 
-</div>
+  <section name="Grammar Notes">
+    ## Grammar Notes
+    :::note Time Expressions
+    - Use "um" before the time when making appointments
+    - Use "Uhr" after the number for o'clock
+    - Use "halb" for half past (e.g., "halb drei" = 2:30)
+    - Use "Viertel" for quarter past/to (e.g., "Viertel vor drei" = 2:45)
+    :::
+
+    :::tip Pronunciation Tips
+    - "u" in "Uhr" is pronounced like "oo"
+    - "ei" in "Zeit" is pronounced like "eye"
+    - "ch" in "nachts" is pronounced like "kh"
+    :::
+  </section>
+
+  <section name="Cultural Notes">
+    ## Cultural Notes
+    :::tip Cultural Insight
+    In German-speaking countries:
+    - Time is typically given in 24-hour format
+    - Punctuality is very important
+    - Appointments are usually made well in advance
+    - Business hours are strictly observed
+    :::
+  </section>
+</PresentLesson>
 
 ## Interactive Practice
 
@@ -81,66 +150,6 @@ In this lesson, you'll learn how to tell time in German. This essential skill wi
     }
   ]}
 />
-
-### 2. Time Categories
-
-<Tabs>
-<TabItem value="parts" label="Parts of the Day" default>
-  ```
-  morgens (morning)
-  mittags (noon)
-  nachmittags (afternoon)
-  abends (evening)
-  nachts (night)
-  ```
-</TabItem>
-<TabItem value="units" label="Time Units">
-  ```
-  die Stunde (hour)
-  die Minute (minute)
-  die Sekunde (second)
-  die Viertelstunde (quarter hour)
-  ```
-</TabItem>
-</Tabs>
-
-## Using Time in Context
-
-### Telling Time
-
-<div className="practice-box">
-  **Q:** Wie spät ist es?  
-  **A:** Es ist drei Uhr.
-</div>
-
-### Making Appointments
-
-<div className="practice-box">
-  **Q:** Wann treffen wir uns?  
-  **A:** Wir treffen uns um zwei Uhr.
-</div>
-
-### Daily Schedule
-
-<div className="practice-box">
-  **Q:** Wann stehst du auf?  
-  **A:** Ich stehe um sieben Uhr auf.
-</div>
-
-## Grammar Notes
-
-:::note Time Expressions
-- Use "um" before the time when making appointments
-- Use "Uhr" after the number for o'clock
-- Use "halb" for half past (e.g., "halb drei" = 2:30)
-- Use "Viertel" for quarter past/to (e.g., "Viertel vor drei" = 2:45)
-:::
-
-:::tip Pronunciation Tips
-- "u" in "Uhr" is pronounced like "oo"
-- "ei" in "Zeit" is pronounced like "eye"
-- "ch" in "nachts" is pronounced like "kh"
-:::
 
 ## Practice Exercises
 
@@ -171,16 +180,6 @@ Write out:
 | Um wie viel Uhr...? | At what time...? | Um wie viel Uhr beginnt der Film? |
 | halb | half past | halb drei (2:30) |
 | Viertel vor/nach | quarter to/past | Viertel vor drei (2:45) |
-
-## Cultural Notes
-
-:::tip Cultural Insight
-In German-speaking countries:
-- Time is typically given in 24-hour format
-- Punctuality is very important
-- Appointments are usually made well in advance
-- Business hours are strictly observed
-:::
 
 ## Next Steps
 

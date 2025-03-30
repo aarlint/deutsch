@@ -10,6 +10,7 @@ import Pronunciation from '../../../../src/components/Pronunciation';
 import { ProgressProvider } from '../../../../src/components/ProgressTracker/ProgressContext';
 import ProgressBar from '../../../../src/components/ProgressTracker/ProgressBar';
 import LessonCompletion from '../../../../src/components/ProgressTracker/LessonCompletion';
+import PresentLesson from '../../../../src/components/PresentLesson';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -19,43 +20,109 @@ import TabItem from '@theme/TabItem';
 
 # Family and Friends
 
-In this lesson, you'll learn how to talk about your family members and friends in German. This essential vocabulary will help you describe your relationships and engage in basic conversations about family life.
+<PresentLesson title="Family and Friends">
+  <section name="Introduction">
+    ## Introduction
+    In this lesson, you'll learn how to talk about your family members and friends in German. This essential vocabulary will help you describe your relationships and engage in basic conversations about family life.
+  </section>
 
-## Basic Vocabulary
+  <section name="Basic Vocabulary">
+    ## Basic Vocabulary
+    ### Family Members
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | die Mutter | mother | [ˈmʊtɐ] |
+    | der Vater | father | [ˈfaːtɐ] |
+    | die Schwester | sister | [ˈʃvɛstɐ] |
+    | der Bruder | brother | [ˈbʁuːdɐ] |
+    | die Großmutter | grandmother | [ˈɡʁoːsmʊtɐ] |
+    | der Großvater | grandfather | [ˈɡʁoːsfaːtɐ] |
+    | die Tante | aunt | [ˈtantə] |
+    | der Onkel | uncle | [ˈɔŋkl̩] |
+    | die Cousine | cousin (female) | [kuˈziːnə] |
+    | der Cousin | cousin (male) | [kuˈzɛ̃ː] |
 
-<div className="lesson-content">
+    <AudioPlayer src="/audio/family/family-members.mp3" />
 
-### Family Members
+    ### Friends and Relationships
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | der Freund | friend (male) | [fʁɔɪ̯nt] |
+    | die Freundin | friend (female) | [ˈfʁɔɪ̯ndɪn] |
+    | der Partner | partner (male) | [ˈpaʁtnɐ] |
+    | die Partnerin | partner (female) | [ˈpaʁtnəʁɪn] |
+    | der Nachbar | neighbor (male) | [ˈnaːxbaːɐ̯] |
+    | die Nachbarin | neighbor (female) | [ˈnaːxbaːʁɪn] |
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| die Mutter | mother | [ˈmʊtɐ] |
-| der Vater | father | [ˈfaːtɐ] |
-| die Schwester | sister | [ˈʃvɛstɐ] |
-| der Bruder | brother | [ˈbʁuːdɐ] |
-| die Großmutter | grandmother | [ˈɡʁoːsmʊtɐ] |
-| der Großvater | grandfather | [ˈɡʁoːsfaːtɐ] |
-| die Tante | aunt | [ˈtantə] |
-| der Onkel | uncle | [ˈɔŋkl̩] |
-| die Cousine | cousin (female) | [kuˈziːnə] |
-| der Cousin | cousin (male) | [kuˈzɛ̃ː] |
+    <AudioPlayer src="/audio/family/friends.mp3" />
+  </section>
 
-<AudioPlayer src="/audio/family/family-members.mp3" />
+  <section name="Family Tree">
+    ## Family Tree Practice
+    <Tabs>
+    <TabItem value="immediate" label="Immediate Family" default>
+      ```
+      die Mutter (mother)
+      der Vater (father)
+      die Schwester (sister)
+      der Bruder (brother)
+      ```
+    </TabItem>
+    <TabItem value="extended" label="Extended Family">
+      ```
+      die Großmutter (grandmother)
+      der Großvater (grandfather)
+      die Tante (aunt)
+      der Onkel (uncle)
+      ```
+    </TabItem>
+    </Tabs>
+  </section>
 
-### Friends and Relationships
+  <section name="Usage Examples">
+    ## Using Family Vocabulary in Context
+    :::practice-box
+    **Q:** Hast du Geschwister?  
+    **A:** Ja, ich habe eine Schwester und einen Bruder.
+    :::
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| der Freund | friend (male) | [fʁɔɪ̯nt] |
-| die Freundin | friend (female) | [ˈfʁɔɪ̯ndɪn] |
-| der Partner | partner (male) | [ˈpaʁtnɐ] |
-| die Partnerin | partner (female) | [ˈpaʁtnəʁɪn] |
-| der Nachbar | neighbor (male) | [ˈnaːxbaːɐ̯] |
-| die Nachbarin | neighbor (female) | [ˈnaːxbaːʁɪn] |
+    :::practice-box
+    **Q:** Wer ist das?  
+    **A:** Das ist meine Mutter.
+    :::
 
-<AudioPlayer src="/audio/family/friends.mp3" />
+    :::practice-box
+    **Q:** Wie viele Geschwister hast du?  
+    **A:** Ich habe zwei Schwestern.
+    :::
+  </section>
 
-</div>
+  <section name="Grammar Notes">
+    ## Grammar Notes
+    :::note Family Nouns
+    - Most family nouns have different forms for male and female
+    - Family nouns use the definite article (der/die)
+    - When talking about your own family, use the possessive pronoun (mein/meine)
+    :::
+
+    :::tip Pronunciation Tips
+    - "sch" is pronounced like "sh" in English
+    - "ei" is pronounced like "eye"
+    - "ie" is pronounced like "ee"
+    :::
+  </section>
+
+  <section name="Cultural Notes">
+    ## Cultural Notes
+    :::tip Cultural Insight
+    In German-speaking countries:
+    - Family is very important in German culture
+    - It's common to live close to extended family
+    - Family gatherings often happen on Sundays
+    - Children typically address their parents as "Mama" and "Papa"
+    :::
+  </section>
+</PresentLesson>
 
 ## Interactive Practice
 
@@ -81,64 +148,6 @@ In this lesson, you'll learn how to talk about your family members and friends i
     }
   ]}
 />
-
-### 2. Family Tree Practice
-
-<Tabs>
-<TabItem value="immediate" label="Immediate Family" default>
-  ```
-  die Mutter (mother)
-  der Vater (father)
-  die Schwester (sister)
-  der Bruder (brother)
-  ```
-</TabItem>
-<TabItem value="extended" label="Extended Family">
-  ```
-  die Großmutter (grandmother)
-  der Großvater (grandfather)
-  die Tante (aunt)
-  der Onkel (uncle)
-  ```
-</TabItem>
-</Tabs>
-
-## Using Family Vocabulary in Context
-
-### Talking About Family
-
-<div className="practice-box">
-  **Q:** Hast du Geschwister?  
-  **A:** Ja, ich habe eine Schwester und einen Bruder.
-</div>
-
-### Introducing Family Members
-
-<div className="practice-box">
-  **Q:** Wer ist das?  
-  **A:** Das ist meine Mutter.
-</div>
-
-### Asking About Family
-
-<div className="practice-box">
-  **Q:** Wie viele Geschwister hast du?  
-  **A:** Ich habe zwei Schwestern.
-</div>
-
-## Grammar Notes
-
-:::note Family Nouns
-- Most family nouns have different forms for male and female
-- Family nouns use the definite article (der/die)
-- When talking about your own family, use the possessive pronoun (mein/meine)
-:::
-
-:::tip Pronunciation Tips
-- "sch" is pronounced like "sh" in English
-- "ei" is pronounced like "eye"
-- "ie" is pronounced like "ee"
-:::
 
 ## Practice Exercises
 
@@ -169,16 +178,6 @@ Write out:
 | Das ist meine... | This is my... | Das ist meine Mutter. |
 | Wer ist das? | Who is that? | Das ist mein Vater. |
 | meine Familie | my family | Das ist meine Familie. |
-
-## Cultural Notes
-
-:::tip Cultural Insight
-In German-speaking countries:
-- Family is very important in German culture
-- It's common to live close to extended family
-- Family gatherings often happen on Sundays
-- Children typically address their parents as "Mama" and "Papa"
-:::
 
 ## Next Steps
 

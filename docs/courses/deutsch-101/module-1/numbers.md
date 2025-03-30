@@ -1,6 +1,6 @@
 ---
-sidebar_position: 3
-title: "Lesson 3: Numbers and Counting"
+sidebar_position: 2
+title: "Lesson 2: Numbers and Counting"
 description: Learn how to count and use numbers in German
 ---
 
@@ -10,6 +10,7 @@ import Pronunciation from '../../../../src/components/Pronunciation';
 import { ProgressProvider } from '../../../../src/components/ProgressTracker/ProgressContext';
 import ProgressBar from '../../../../src/components/ProgressTracker/ProgressBar';
 import LessonCompletion from '../../../../src/components/ProgressTracker/LessonCompletion';
+import PresentLesson from '../../../../src/components/PresentLesson';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -19,47 +20,109 @@ import TabItem from '@theme/TabItem';
 
 # Numbers and Counting
 
-In this lesson, you'll learn how to count in German and use numbers in everyday situations.
+<PresentLesson title="Numbers and Counting">
+  <section name="Introduction">
+    ## Introduction
+    In this lesson, you'll learn how to count in German and use numbers in everyday situations.
+  </section>
 
-## Basic Numbers (1-20)
+  <section name="Basic Numbers">
+    ## Basic Numbers (1-20)
+    ### Numbers 1-10
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | eins | one | [aɪ̯ns] |
+    | zwei | two | [tsvaɪ̯] |
+    | drei | three | [dʁaɪ̯] |
+    | vier | four | [fiːɐ̯] |
+    | fünf | five | [fʏnf] |
+    | sechs | six | [zɛks] |
+    | sieben | seven | [ˈziːbn̩] |
+    | acht | eight | [axt] |
+    | neun | nine | [nɔɪ̯n] |
+    | zehn | ten | [tseːn] |
 
-<div className="lesson-content">
+    <AudioPlayer src="/audio/numbers/one-to-ten.mp3" />
 
-### Numbers 1-10
+    ### Numbers 11-20
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | elf | eleven | [ɛlf] |
+    | zwölf | twelve | [tsvœlf] |
+    | dreizehn | thirteen | [ˈdʁaɪ̯tseːn] |
+    | vierzehn | fourteen | [ˈfiːɐ̯tseːn] |
+    | fünfzehn | fifteen | [ˈfʏnftseːn] |
+    | sechzehn | sixteen | [ˈzɛçtseːn] |
+    | siebzehn | seventeen | [ˈziːptseːn] |
+    | achtzehn | eighteen | [ˈaxtseːn] |
+    | neunzehn | nineteen | [ˈnɔɪ̯ntseːn] |
+    | zwanzig | twenty | [ˈtsvantsɪç] |
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| eins | one | [aɪ̯ns] |
-| zwei | two | [tsvaɪ̯] |
-| drei | three | [dʁaɪ̯] |
-| vier | four | [fiːɐ̯] |
-| fünf | five | [fʏnf] |
-| sechs | six | [zɛks] |
-| sieben | seven | [ˈziːbn̩] |
-| acht | eight | [axt] |
-| neun | nine | [nɔɪ̯n] |
-| zehn | ten | [tseːn] |
+    <AudioPlayer src="/audio/numbers/eleven-to-twenty.mp3" />
+  </section>
 
-<AudioPlayer src="/audio/numbers/one-to-ten.mp3" />
+  <section name="Counting Practice">
+    ## Counting Practice
+    <Tabs>
+    <TabItem value="counting" label="Counting" default>
+      Count from 1 to 10:
+      ```
+      eins, zwei, drei, vier, fünf,
+      sechs, sieben, acht, neun, zehn
+      ```
+    </TabItem>
+    <TabItem value="reverse" label="Reverse">
+      Count from 10 to 1:
+      ```
+      zehn, neun, acht, sieben, sechs,
+      fünf, vier, drei, zwei, eins
+      ```
+    </TabItem>
+    </Tabs>
+  </section>
 
-### Numbers 11-20
+  <section name="Usage Examples">
+    ## Using Numbers in Context
+    :::practice-box
+    **Q:** Wie alt bist du?  
+    **A:** Ich bin [number] Jahre alt.
+    :::
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| elf | eleven | [ɛlf] |
-| zwölf | twelve | [tsvœlf] |
-| dreizehn | thirteen | [ˈdʁaɪ̯tseːn] |
-| vierzehn | fourteen | [ˈfiːɐ̯tseːn] |
-| fünfzehn | fifteen | [ˈfʏnftseːn] |
-| sechzehn | sixteen | [ˈzɛçtseːn] |
-| siebzehn | seventeen | [ˈziːptseːn] |
-| achtzehn | eighteen | [ˈaxtseːn] |
-| neunzehn | nineteen | [ˈnɔɪ̯ntseːn] |
-| zwanzig | twenty | [ˈtsvantsɪç] |
+    :::practice-box
+    **Q:** Wie spät ist es?  
+    **A:** Es ist [number] Uhr.
+    :::
 
-<AudioPlayer src="/audio/numbers/eleven-to-twenty.mp3" />
+    :::practice-box
+    **Q:** Wie viel kostet das?  
+    **A:** Das kostet [number] Euro.
+    :::
+  </section>
 
-</div>
+  <section name="Grammar Notes">
+    ## Grammar Notes
+    :::note Number Formation
+    - Numbers 13-19 are formed by adding "-zehn" to the base number
+    - The base number comes first (e.g., "dreizehn" = "three-ten")
+    :::
+
+    :::tip Pronunciation Tips
+    - "z" is pronounced like "ts"
+    - "ei" is pronounced like "eye"
+    - "ie" is pronounced like "ee"
+    :::
+  </section>
+
+  <section name="Cultural Notes">
+    ## Cultural Notes
+    :::tip Cultural Insight
+    In German-speaking countries:
+    - Time is typically given in 24-hour format
+    - Prices are written with a comma for decimals (e.g., 10,99 €)
+    - Age is often asked early in conversations
+    :::
+  </section>
+</PresentLesson>
 
 ## Interactive Practice
 
@@ -85,61 +148,6 @@ In this lesson, you'll learn how to count in German and use numbers in everyday 
     }
   ]}
 />
-
-### 2. Counting Practice
-
-<Tabs>
-<TabItem value="counting" label="Counting" default>
-  Count from 1 to 10:
-  ```
-  eins, zwei, drei, vier, fünf,
-  sechs, sieben, acht, neun, zehn
-  ```
-</TabItem>
-<TabItem value="reverse" label="Reverse">
-  Count from 10 to 1:
-  ```
-  zehn, neun, acht, sieben, sechs,
-  fünf, vier, drei, zwei, eins
-  ```
-</TabItem>
-</Tabs>
-
-## Using Numbers in Context
-
-### Age
-
-<div className="practice-box">
-  **Q:** Wie alt bist du?  
-  **A:** Ich bin [number] Jahre alt.
-</div>
-
-### Time
-
-<div className="practice-box">
-  **Q:** Wie spät ist es?  
-  **A:** Es ist [number] Uhr.
-</div>
-
-### Prices
-
-<div className="practice-box">
-  **Q:** Wie viel kostet das?  
-  **A:** Das kostet [number] Euro.
-</div>
-
-## Grammar Notes
-
-:::note Number Formation
-- Numbers 13-19 are formed by adding "-zehn" to the base number
-- The base number comes first (e.g., "dreizehn" = "three-ten")
-:::
-
-:::tip Pronunciation Tips
-- "z" is pronounced like "ts"
-- "ei" is pronounced like "eye"
-- "ie" is pronounced like "ee"
-:::
 
 ## Practice Exercises
 
@@ -170,15 +178,6 @@ Write out:
 | Wie viel kostet das? | How much does that cost? | Das kostet 10 Euro. |
 | Jahre alt | years old | Ich bin 20 Jahre alt. |
 | Uhr | o'clock | Es ist 2 Uhr. |
-
-## Cultural Notes
-
-:::tip Cultural Insight
-In German-speaking countries:
-- Time is typically given in 24-hour format
-- Prices are written with a comma for decimals (e.g., 10,99 €)
-- Age is often asked early in conversations
-:::
 
 ## Next Steps
 

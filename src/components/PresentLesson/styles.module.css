@@ -1,8 +1,10 @@
 .presentButtonContainer {
   display: flex;
   justify-content: center;
+  gap: 1rem;
   margin: 2rem 0;
   position: relative;
+  padding: 0 2rem;
 }
 
 .presentButtonContainer::before,
@@ -23,7 +25,7 @@
 .presentButtonContainer::before {
   left: 0;
   top: 50%;
-  width: 30%;
+  width: 25%;
   transform-origin: left;
   transform: translateY(-50%);
   border-radius: 2px;
@@ -32,7 +34,7 @@
 .presentButtonContainer::after {
   right: 0;
   top: 50%;
-  width: 30%;
+  width: 25%;
   transform-origin: right;
   transform: translateY(-50%);
   border-radius: 2px;
@@ -46,13 +48,13 @@
 }
 
 .presentButtonContainer .downLine.left {
-  left: 30%;
+  left: 25%;
   transform: translateY(-50%) rotate(-45deg);
   transform-origin: center;
 }
 
 .presentButtonContainer .downLine.right {
-  right: 30%;
+  right: 25%;
   transform: translateY(-50%) rotate(45deg);
   transform-origin: center;
 }
@@ -79,6 +81,30 @@
 .presentButton:hover {
   background: var(--ifm-color-primary-dark);
   transform: translateY(-2px);
+}
+
+.toggleButton {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-800);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.toggleButton:hover {
+  background: var(--ifm-color-emphasis-300);
+  transform: translateY(-2px);
+}
+
+.toggleButton.hidden {
+  background: var(--ifm-color-primary);
+  color: white;
 }
 
 .modalOverlay {

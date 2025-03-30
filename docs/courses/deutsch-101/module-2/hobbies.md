@@ -10,6 +10,7 @@ import Pronunciation from '../../../../src/components/Pronunciation';
 import { ProgressProvider } from '../../../../src/components/ProgressTracker/ProgressContext';
 import ProgressBar from '../../../../src/components/ProgressTracker/ProgressBar';
 import LessonCompletion from '../../../../src/components/ProgressTracker/LessonCompletion';
+import PresentLesson from '../../../../src/components/PresentLesson';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -19,45 +20,111 @@ import TabItem from '@theme/TabItem';
 
 # Hobbies and Activities
 
-In this lesson, you'll learn how to talk about your hobbies and free time activities in German. This vocabulary will help you share your interests and ask others about theirs.
+<PresentLesson title="Hobbies and Activities">
+  <section name="Introduction">
+    ## Introduction
+    In this lesson, you'll learn how to talk about your hobbies and free time activities in German. This vocabulary will help you share your interests and ask others about theirs.
+  </section>
 
-## Basic Vocabulary
+  <section name="Basic Vocabulary">
+    ## Basic Vocabulary
+    ### Common Hobbies
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | lesen | to read | [ˈleːzn̩] |
+    | schreiben | to write | [ˈʃʁaɪ̯bn̩] |
+    | schwimmen | to swim | [ˈʃvɪmən] |
+    | tanzen | to dance | [ˈtant͡sn̩] |
+    | singen | to sing | [ˈzɪŋən] |
+    | malen | to paint | [ˈmaːlən] |
+    | zeichnen | to draw | [ˈt͡saɪ̯çnən] |
+    | fotografieren | to take photos | [fotoɡʁaˈfiːʁən] |
+    | kochen | to cook | [ˈkɔxn̩] |
+    | backen | to bake | [ˈbakn̩] |
 
-<div className="lesson-content">
+    <AudioPlayer src="/audio/hobbies/common-hobbies.mp3" />
 
-### Common Hobbies
+    ### Sports and Outdoor Activities
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | Fußball spielen | to play soccer | [ˈfuːsbal ˈʃpiːlən] |
+    | Tennis spielen | to play tennis | [ˈtɛnɪs ˈʃpiːlən] |
+    | wandern | to hike | [ˈvandɐn] |
+    | Rad fahren | to cycle | [ʁaːt ˈfaːʁən] |
+    | joggen | to jog | [ˈd͡ʒɔɡn̩] |
+    | Yoga machen | to do yoga | [ˈjoːɡa ˈmaxn̩] |
+    | schwimmen gehen | to go swimming | [ˈʃvɪmən ˈɡeːən] |
+    | Ski fahren | to ski | [ʃiː ˈfaːʁən] |
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| lesen | to read | [ˈleːzn̩] |
-| schreiben | to write | [ˈʃʁaɪ̯bn̩] |
-| schwimmen | to swim | [ˈʃvɪmən] |
-| tanzen | to dance | [ˈtant͡sn̩] |
-| singen | to sing | [ˈzɪŋən] |
-| malen | to paint | [ˈmaːlən] |
-| zeichnen | to draw | [ˈt͡saɪ̯çnən] |
-| fotografieren | to take photos | [fotoɡʁaˈfiːʁən] |
-| kochen | to cook | [ˈkɔxn̩] |
-| backen | to bake | [ˈbakn̩] |
+    <AudioPlayer src="/audio/hobbies/sports.mp3" />
+  </section>
 
-<AudioPlayer src="/audio/hobbies/common-hobbies.mp3" />
+  <section name="Activity Categories">
+    ## Activity Categories
+    <Tabs>
+    <TabItem value="indoor" label="Indoor Activities" default>
+      ```
+      lesen (reading)
+      schreiben (writing)
+      malen (painting)
+      kochen (cooking)
+      ```
+    </TabItem>
+    <TabItem value="outdoor" label="Outdoor Activities">
+      ```
+      wandern (hiking)
+      Rad fahren (cycling)
+      joggen (jogging)
+      schwimmen (swimming)
+      ```
+    </TabItem>
+    </Tabs>
+  </section>
 
-### Sports and Outdoor Activities
+  <section name="Usage Examples">
+    ## Using Hobby Vocabulary in Context
+    :::practice-box
+    **Q:** Was machst du gern?  
+    **A:** Ich lese gern und spiele Tennis.
+    :::
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| Fußball spielen | to play soccer | [ˈfuːsbal ˈʃpiːlən] |
-| Tennis spielen | to play tennis | [ˈtɛnɪs ˈʃpiːlən] |
-| wandern | to hike | [ˈvandɐn] |
-| Rad fahren | to cycle | [ʁaːt ˈfaːʁən] |
-| joggen | to jog | [ˈd͡ʒɔɡn̩] |
-| Yoga machen | to do yoga | [ˈjoːɡa ˈmaxn̩] |
-| schwimmen gehen | to go swimming | [ˈʃvɪmən ˈɡeːən] |
-| Ski fahren | to ski | [ʃiː ˈfaːʁən] |
+    :::practice-box
+    **Q:** Spielst du Fußball?  
+    **A:** Ja, ich spiele jeden Samstag Fußball.
+    :::
 
-<AudioPlayer src="/audio/hobbies/sports.mp3" />
+    :::practice-box
+    **Q:** Möchtest du mit mir schwimmen gehen?  
+    **A:** Ja, das klingt gut!
+    :::
+  </section>
 
-</div>
+  <section name="Grammar Notes">
+    ## Grammar Notes
+    :::note Verb Usage
+    - Most hobby verbs are regular verbs
+    - Use "gern" after the verb to express "like to"
+    - Use "machen" with some activities (e.g., "Yoga machen")
+    :::
+
+    :::tip Pronunciation Tips
+    - "sch" is pronounced like "sh"
+    - "ei" is pronounced like "eye"
+    - "ie" is pronounced like "ee"
+    :::
+  </section>
+
+  <section name="Cultural Notes">
+    ## Cultural Notes
+    :::tip Cultural Insight
+    In German-speaking countries:
+    - Hiking (Wandern) is a very popular activity
+    - Many people belong to sports clubs (Vereine)
+    - Sunday is often reserved for family activities
+    - Outdoor activities are popular year-round
+    :::
+  </section>
+</PresentLesson>
 
 ## Interactive Practice
 
@@ -83,64 +150,6 @@ In this lesson, you'll learn how to talk about your hobbies and free time activi
     }
   ]}
 />
-
-### 2. Activity Categories
-
-<Tabs>
-<TabItem value="indoor" label="Indoor Activities" default>
-  ```
-  lesen (reading)
-  schreiben (writing)
-  malen (painting)
-  kochen (cooking)
-  ```
-</TabItem>
-<TabItem value="outdoor" label="Outdoor Activities">
-  ```
-  wandern (hiking)
-  Rad fahren (cycling)
-  joggen (jogging)
-  schwimmen (swimming)
-  ```
-</TabItem>
-</Tabs>
-
-## Using Hobby Vocabulary in Context
-
-### Talking About Hobbies
-
-<div className="practice-box">
-  **Q:** Was machst du gern?  
-  **A:** Ich lese gern und spiele Tennis.
-</div>
-
-### Asking About Activities
-
-<div className="practice-box">
-  **Q:** Spielst du Fußball?  
-  **A:** Ja, ich spiele jeden Samstag Fußball.
-</div>
-
-### Making Plans
-
-<div className="practice-box">
-  **Q:** Möchtest du mit mir schwimmen gehen?  
-  **A:** Ja, das klingt gut!
-</div>
-
-## Grammar Notes
-
-:::note Verb Usage
-- Most hobby verbs are regular verbs
-- Use "gern" after the verb to express "like to"
-- Use "machen" with some activities (e.g., "Yoga machen")
-:::
-
-:::tip Pronunciation Tips
-- "sch" is pronounced like "sh"
-- "ei" is pronounced like "eye"
-- "ie" is pronounced like "ee"
-:::
 
 ## Practice Exercises
 
@@ -171,16 +180,6 @@ Write out:
 | Möchtest du...? | Would you like to...? | Möchtest du schwimmen gehen? |
 | jeden Tag | every day | Ich lese jeden Tag. |
 | am Wochenende | on the weekend | Ich spiele am Wochenende Fußball. |
-
-## Cultural Notes
-
-:::tip Cultural Insight
-In German-speaking countries:
-- Hiking (Wandern) is a very popular activity
-- Many people belong to sports clubs (Vereine)
-- Sunday is often reserved for family activities
-- Outdoor activities are popular year-round
-:::
 
 ## Next Steps
 

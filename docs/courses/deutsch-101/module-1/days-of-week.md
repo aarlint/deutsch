@@ -10,6 +10,7 @@ import Pronunciation from '../../../../src/components/Pronunciation';
 import { ProgressProvider } from '../../../../src/components/ProgressTracker/ProgressContext';
 import ProgressBar from '../../../../src/components/ProgressTracker/ProgressBar';
 import LessonCompletion from '../../../../src/components/ProgressTracker/LessonCompletion';
+import PresentLesson from '../../../../src/components/PresentLesson';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -19,27 +20,90 @@ import TabItem from '@theme/TabItem';
 
 # Days of the Week
 
-In this lesson, you'll learn how to say and use the days of the week in German. This is an essential part of basic German vocabulary that you'll use frequently in everyday conversations.
+<PresentLesson title="Days of the Week">
+  <section name="Introduction">
+    ## Introduction
+    In this lesson, you'll learn how to say and use the days of the week in German. This is an essential part of basic German vocabulary that you'll use frequently in everyday conversations.
+  </section>
 
-## Basic Vocabulary
+  <section name="Basic Vocabulary">
+    ## Basic Vocabulary
+    ### Days of the Week
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | Montag | Monday | [ˈmoːntaːk] |
+    | Dienstag | Tuesday | [ˈdiːnstaːk] |
+    | Mittwoch | Wednesday | [ˈmɪtvɔx] |
+    | Donnerstag | Thursday | [ˈdɔnɐstaːk] |
+    | Freitag | Friday | [ˈfʁaɪ̯taːk] |
+    | Samstag | Saturday | [ˈzamstaːk] |
+    | Sonntag | Sunday | [ˈzɔntaːk] |
 
-<div className="lesson-content">
+    <AudioPlayer src="/audio/days-of-week/days.mp3" />
+  </section>
 
-### Days of the Week
+  <section name="Day Categories">
+    ## Day Categories
+    <Tabs>
+    <TabItem value="weekdays" label="Weekdays" default>
+      Monday to Friday:
+      ```
+      Montag, Dienstag, Mittwoch, Donnerstag, Freitag
+      ```
+    </TabItem>
+    <TabItem value="weekend" label="Weekend">
+      Saturday and Sunday:
+      ```
+      Samstag, Sonntag
+      ```
+    </TabItem>
+    </Tabs>
+  </section>
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| Montag | Monday | [ˈmoːntaːk] |
-| Dienstag | Tuesday | [ˈdiːnstaːk] |
-| Mittwoch | Wednesday | [ˈmɪtvɔx] |
-| Donnerstag | Thursday | [ˈdɔnɐstaːk] |
-| Freitag | Friday | [ˈfʁaɪ̯taːk] |
-| Samstag | Saturday | [ˈzamstaːk] |
-| Sonntag | Sunday | [ˈzɔntaːk] |
+  <section name="Usage Examples">
+    ## Using Days in Context
+    :::practice-box
+    **Q:** Wann treffen wir uns?  
+    **A:** Wir treffen uns am [day].
+    :::
 
-<AudioPlayer src="/audio/days-of-week/days.mp3" />
+    :::practice-box
+    **Q:** Welcher Tag ist heute?  
+    **A:** Heute ist [day].
+    :::
 
-</div>
+    :::practice-box
+    **Q:** Am welchen Tag hast du Zeit?  
+    **A:** Ich habe am [day] Zeit.
+    :::
+  </section>
+
+  <section name="Grammar Notes">
+    ## Grammar Notes
+    :::note Day Usage
+    - Days of the week are masculine nouns (der)
+    - Use "am" before the day when talking about specific days
+    - Days are not capitalized unless at the start of a sentence
+    :::
+
+    :::tip Pronunciation Tips
+    - "ch" in "Mittwoch" is pronounced like "kh"
+    - "ei" in "Freitag" is pronounced like "eye"
+    - "au" in "Montag" is pronounced like "ow"
+    :::
+  </section>
+
+  <section name="Cultural Notes">
+    ## Cultural Notes
+    :::tip Cultural Insight
+    In German-speaking countries:
+    - The week traditionally starts on Monday
+    - Many businesses are closed on Sundays
+    - "Mittwoch" literally means "middle of the week"
+    - "Samstag" is sometimes called "Sonnabend" in northern Germany
+    :::
+  </section>
+</PresentLesson>
 
 ## Interactive Practice
 
@@ -65,60 +129,6 @@ In this lesson, you'll learn how to say and use the days of the week in German. 
     }
   ]}
 />
-
-### 2. Days Practice
-
-<Tabs>
-<TabItem value="weekdays" label="Weekdays" default>
-  Monday to Friday:
-  ```
-  Montag, Dienstag, Mittwoch, Donnerstag, Freitag
-  ```
-</TabItem>
-<TabItem value="weekend" label="Weekend">
-  Saturday and Sunday:
-  ```
-  Samstag, Sonntag
-  ```
-</TabItem>
-</Tabs>
-
-## Using Days in Context
-
-### Making Plans
-
-<div className="practice-box">
-  **Q:** Wann treffen wir uns?  
-  **A:** Wir treffen uns am [day].
-</div>
-
-### Asking About Days
-
-<div className="practice-box">
-  **Q:** Welcher Tag ist heute?  
-  **A:** Heute ist [day].
-</div>
-
-### Future Plans
-
-<div className="practice-box">
-  **Q:** Am welchen Tag hast du Zeit?  
-  **A:** Ich habe am [day] Zeit.
-</div>
-
-## Grammar Notes
-
-:::note Day Usage
-- Days of the week are masculine nouns (der)
-- Use "am" before the day when talking about specific days
-- Days are not capitalized unless at the start of a sentence
-:::
-
-:::tip Pronunciation Tips
-- "ch" in "Mittwoch" is pronounced like "kh"
-- "ei" in "Freitag" is pronounced like "eye"
-- "au" in "Montag" is pronounced like "ow"
-:::
 
 ## Practice Exercises
 
@@ -150,16 +160,6 @@ Write out:
 | am [Tag] | on [day] | am Montag |
 | heute | today | Heute ist Freitag. |
 | morgen | tomorrow | Morgen ist Samstag. |
-
-## Cultural Notes
-
-:::tip Cultural Insight
-In German-speaking countries:
-- The week traditionally starts on Monday
-- Many businesses are closed on Sundays
-- "Mittwoch" literally means "middle of the week"
-- "Samstag" is sometimes called "Sonnabend" in northern Germany
-:::
 
 ## Next Steps
 

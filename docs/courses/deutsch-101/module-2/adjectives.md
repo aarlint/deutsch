@@ -1,7 +1,7 @@
 ---
 sidebar_position: 4
 title: "Lesson 4: Basic Adjectives"
-description: Learn how to use basic adjectives to describe people, places, and things in German
+description: Learn common adjectives and their usage in German
 ---
 
 import AudioPlayer from '../../../../src/components/AudioPlayer';
@@ -10,6 +10,7 @@ import Pronunciation from '../../../../src/components/Pronunciation';
 import { ProgressProvider } from '../../../../src/components/ProgressTracker/ProgressContext';
 import ProgressBar from '../../../../src/components/ProgressTracker/ProgressBar';
 import LessonCompletion from '../../../../src/components/ProgressTracker/LessonCompletion';
+import PresentLesson from '../../../../src/components/PresentLesson';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
@@ -19,47 +20,95 @@ import TabItem from '@theme/TabItem';
 
 # Basic Adjectives
 
-In this lesson, you'll learn how to use basic adjectives in German. This will help you describe people, places, and things, making your conversations more detailed and interesting.
+<PresentLesson title="Basic Adjectives">
+  <section name="Introduction">
+    ## Introduction
+    In this lesson, you'll learn common adjectives in German and how to use them to describe people, objects, and situations. Adjectives are essential for expressing opinions and making descriptions more vivid.
+  </section>
 
-## Basic Vocabulary
+  <section name="Basic Vocabulary">
+    ## Basic Vocabulary
+    ### Common Adjectives
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | groß | big/tall | [ɡʁoːs] |
+    | klein | small | [klaɪ̯n] |
+    | alt | old | [alt] |
+    | neu | new | [nɔɪ̯] |
+    | gut | good | [ɡuːt] |
+    | schlecht | bad | [ʃlɛçt] |
+    | heiß | hot | [haɪ̯s] |
+    | kalt | cold | [kalt] |
+    | schön | beautiful | [ʃøːn] |
+    | hässlich | ugly | [ˈhɛslɪç] |
+    | teuer | expensive | [ˈtɔɪ̯ɐ] |
+    | billig | cheap | [ˈbɪlɪç] |
 
-<div className="lesson-content">
+    <AudioPlayer src="/audio/adjectives/common-adjectives.mp3" />
 
-### Common Adjectives
+    ### Opposites
+    | German | English | Pronunciation |
+    |--------|---------|---------------|
+    | groß - klein | big - small | [ɡʁoːs] - [klaɪ̯n] |
+    | alt - neu | old - new | [alt] - [nɔɪ̯] |
+    | gut - schlecht | good - bad | [ɡuːt] - [ʃlɛçt] |
+    | heiß - kalt | hot - cold | [haɪ̯s] - [kalt] |
+    | schön - hässlich | beautiful - ugly | [ʃøːn] - [ˈhɛslɪç] |
+    | teuer - billig | expensive - cheap | [ˈtɔɪ̯ɐ] - [ˈbɪlɪç] |
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| groß | big/tall | [ɡʁoːs] |
-| klein | small | [klaɪ̯n] |
-| alt | old | [alt] |
-| jung | young | [jʊŋ] |
-| schön | beautiful | [ʃøːn] |
-| hässlich | ugly | [ˈhɛslɪç] |
-| gut | good | [ɡuːt] |
-| schlecht | bad | [ʃlɛçt] |
-| neu | new | [nɔɪ̯] |
-| alt | old | [alt] |
+    <AudioPlayer src="/audio/adjectives/opposites.mp3" />
+  </section>
 
-<AudioPlayer src="/audio/adjectives/common-adjectives.mp3" />
+  <section name="Usage Examples">
+    ## Using Adjectives in Context
+    :::practice-box
+    **Q:** Wie ist das Wetter?  
+    **A:** Es ist heiß und sonnig.
+    :::
 
-### Descriptive Adjectives
+    :::practice-box
+    **Q:** Wie findest du das Buch?  
+    **A:** Es ist sehr gut.
+    :::
 
-| German | English | Pronunciation |
-|--------|---------|---------------|
-| heiß | hot | [haɪ̯s] |
-| kalt | cold | [kalt] |
-| hell | light/bright | [hɛl] |
-| dunkel | dark | [ˈdʊŋkl̩] |
-| schnell | fast | [ʃnɛl] |
-| langsam | slow | [ˈlaŋzaːm] |
-| teuer | expensive | [ˈtɔɪ̯ɐ] |
-| billig | cheap | [ˈbɪlɪç] |
-| schwer | heavy/difficult | [ʃveːɐ̯] |
-| leicht | light/easy | [laɪ̯çt] |
+    :::practice-box
+    **Q:** Wie ist deine Wohnung?  
+    **A:** Sie ist klein aber schön.
+    :::
+  </section>
 
-<AudioPlayer src="/audio/adjectives/descriptive-adjectives.mp3" />
+  <section name="Grammar Notes">
+    ## Grammar Notes
+    :::note Adjective Endings
+    - Adjectives change their endings based on:
+      - Gender (masculine, feminine, neuter)
+      - Number (singular, plural)
+      - Case (nominative, accusative, dative, genitive)
+    - Basic rule: Add "-e" for feminine singular nominative
+    - Add "-er" for masculine singular nominative
+    - Add "-es" for neuter singular nominative
+    - Add "-e" for plural nominative
+    :::
 
-</div>
+    :::tip Pronunciation Tips
+    - "ä" is pronounced like "e" in "bed"
+    - "ö" is pronounced like "u" in "burn"
+    - "ü" is pronounced like "u" in "tu"
+    - "ei" is pronounced like "eye"
+    :::
+  </section>
+
+  <section name="Cultural Notes">
+    ## Cultural Notes
+    :::tip Cultural Insight
+    In German-speaking countries:
+    - People often use more direct descriptions
+    - Compliments are usually more specific
+    - Personal appearance is less frequently commented on
+    - Quality and functionality are often emphasized
+    :::
+  </section>
+</PresentLesson>
 
 ## Interactive Practice
 
@@ -79,89 +128,27 @@ In this lesson, you'll learn how to use basic adjectives in German. This will he
       correctAnswer: 1
     },
     {
-      question: "Which word means 'fast'?",
-      options: ["langsam", "schnell", "schwer", "leicht"],
+      question: "Which word means 'expensive'?",
+      options: ["billig", "teuer", "neu", "alt"],
       correctAnswer: 1
     }
   ]}
 />
 
-### 2. Adjective Categories
-
-<Tabs>
-<TabItem value="size" label="Size" default>
-  ```
-  groß (big)
-  klein (small)
-  lang (long)
-  kurz (short)
-  ```
-</TabItem>
-<TabItem value="quality" label="Quality">
-  ```
-  gut (good)
-  schlecht (bad)
-  schön (beautiful)
-  hässlich (ugly)
-  ```
-</TabItem>
-</Tabs>
-
-## Using Adjectives in Context
-
-### Describing People
-
-<div className="practice-box">
-  **Q:** Wie ist deine Schwester?  
-  **A:** Meine Schwester ist jung und schön.
-</div>
-
-### Describing Things
-
-<div className="practice-box">
-  **Q:** Wie ist das Buch?  
-  **A:** Das Buch ist neu und interessant.
-</div>
-
-### Making Comparisons
-
-<div className="practice-box">
-  **Q:** Ist das Auto teuer?  
-  **A:** Ja, es ist sehr teuer.
-</div>
-
-## Grammar Notes
-
-:::note Adjective Agreement
-- Adjectives change their endings based on:
-  - Gender (der/die/das)
-  - Number (singular/plural)
-  - Case (nominative/accusative)
-- Basic form: -e for feminine singular
-- Basic form: -er for masculine singular
-- Basic form: -es for neuter singular
-:::
-
-:::tip Pronunciation Tips
-- "sch" is pronounced like "sh"
-- "ei" is pronounced like "eye"
-- "ä" is pronounced like "e" in "bed"
-:::
-
 ## Practice Exercises
 
 ### 1. Speaking Practice
-- Practice describing people
 - Practice describing objects
-- Practice making comparisons
-- Practice using adjectives in sentences
+- Practice describing people
+- Practice describing places
+- Practice describing situations
 
 ### 2. Writing Practice
 Write out:
-- Descriptions of family members
-- Descriptions of your possessions
-- Comparisons between objects
-- Sentences using different adjectives
+- Descriptions of your home
+- Descriptions of your family
+- Descriptions of your favorite places
+- Descriptions of your daily routine
 
 ### 3. Listening Practice
 - Listen to the audio samples
@@ -173,32 +160,22 @@ Write out:
 | German | English | Example |
 |--------|---------|----------|
 | Wie ist...? | How is...? | Wie ist das Wetter? |
-| Sehr | Very | Das ist sehr gut. |
-| Zu | Too | Das ist zu teuer. |
-| Nicht | Not | Das ist nicht schlecht. |
-| Ein bisschen | A bit | Das ist ein bisschen teuer. |
-
-## Cultural Notes
-
-:::tip Cultural Insight
-In German-speaking countries:
-- Directness in descriptions is common
-- Compliments are often more specific
-- Physical descriptions are usually reserved for close relationships
-- Quality is often emphasized in descriptions
-:::
+| sehr | very | sehr gut |
+| aber | but | klein aber schön |
+| ziemlich | quite | ziemlich teuer |
+| ein bisschen | a bit | ein bisschen kalt |
 
 ## Next Steps
 
 - Practice using adjectives in conversations
-- Try describing different objects and people
-- Move on to [Module 3: Basic Grammar](../module-3) when you're ready
+- Try describing different objects and situations
+- Move on to [Family](./family) when you're ready
 - Complete the homework exercises
 
 :::note Homework
-1. Write descriptions of five objects in German
-2. Create sentences comparing different things
-3. Practice using adjectives with different articles
+1. Write descriptions of five objects in your room
+2. Create a list of adjectives to describe your family
+3. Practice using adjectives in different contexts
 4. Complete the online exercises
 :::
 
