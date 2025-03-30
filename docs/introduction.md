@@ -1,35 +1,78 @@
 ---
+id: introduction
+title: Welcome to Deutsch Learning Hub
 sidebar_position: 1
 ---
 
-# Introduction to German
+# Welcome to Deutsch Learning Hub
 
-Welcome to DocuDeutsch! This guide will help you learn German from the ground up. German is a fascinating language with a rich cultural heritage and is spoken by over 130 million people worldwide.
-
-## Why Learn German?
-
-- **Career Opportunities**: Germany has the largest economy in Europe
-- **Cultural Heritage**: Rich literature, music, and philosophy
-- **Travel**: German is widely spoken in Europe
-- **Scientific Language**: Many scientific papers are published in German
+Your comprehensive guide to learning German. Whether you're just starting out or looking to improve your skills, we've got you covered with structured courses, grammar explanations, vocabulary lists, and useful templates.
 
 ## Getting Started
 
-Before diving into the lessons, here are some tips for learning German:
+Choose a section to begin your German learning journey:
 
-1. **Practice Regularly**: Even 15 minutes daily is better than long sessions once a week
-2. **Use Multiple Resources**: Combine our lessons with apps, videos, and conversation practice
-3. **Don't Fear Mistakes**: Making mistakes is part of learning
-4. **Immerse Yourself**: Try to surround yourself with German content
+<div class="row">
+  <div class="col col--6">
+    <div class="card">
+      <div class="card__header">
+        <h2>📚 Courses</h2>
+      </div>
+      <div class="card__body">
+        <p>Structured learning paths for different levels and goals.</p>
+        <a class="button button--primary" href="/docs/courses">Start Learning</a>
+      </div>
+    </div>
+  </div>
+  <div class="col col--6">
+    <div class="card">
+      <div class="card__header">
+        <h2>📝 Grammar</h2>
+      </div>
+      <div class="card__body">
+        <p>Comprehensive grammar guides and explanations.</p>
+        <a class="button button--primary" href="/docs/grammar">Learn Grammar</a>
+      </div>
+    </div>
+  </div>
+  <div class="col col--6">
+    <div class="card">
+      <div class="card__header">
+        <h2>📖 Vocabulary</h2>
+      </div>
+      <div class="card__body">
+        <p>Essential vocabulary lists and learning resources.</p>
+        <a class="button button--primary" href="/docs/vocabulary">Build Vocabulary</a>
+      </div>
+    </div>
+  </div>
+  <div class="col col--6">
+    <div class="card">
+      <div class="card__header">
+        <h2>📋 Templates</h2>
+      </div>
+      <div class="card__body">
+        <p>Useful templates for common situations and conversations.</p>
+        <a class="button button--primary" href="/docs/templates">View Templates</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-## Course Structure
+## Why Learn German?
 
-Our course is divided into three main sections:
+German is one of the most widely spoken languages in Europe and is the official language of Germany, Austria, Switzerland, and several other countries. Learning German can:
 
-- **Basics**: Essential vocabulary and simple phrases
-- **Grammar**: Understanding German sentence structure
-- **Vocabulary**: Themed word lists for different situations
+- Open up career opportunities in German-speaking countries
+- Help you understand German culture and literature
+- Make traveling in German-speaking regions more enjoyable
+- Connect you with millions of native speakers worldwide
 
-## Next Steps
+## How to Use This Hub
 
-Ready to begin? Start with our [Greetings](/docs/basics/greetings) lesson to learn how to say hello and introduce yourself in German! 
+1. **Choose Your Path**: Start with our structured courses if you're new to German, or jump into specific topics using the navigation menu.
+2. **Practice Regularly**: Use our vocabulary lists and templates to practice daily.
+3. **Track Progress**: Follow the course structure to ensure you're learning systematically.
+4. **Get Help**: Use our grammar guides as reference when you need clarification.
+
+Ready to start your German learning journey? Choose a section above and begin! 

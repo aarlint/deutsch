@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Deutsch 102: Intermediate German
+# Deutsch 102: Elementary German
 
 Welcome to Deutsch 102! This course builds upon the foundations established in Deutsch 101, taking your German skills to the next level. We'll focus on more complex grammar structures, expanded vocabulary, and practical communication skills.
 
@@ -35,6 +35,8 @@ Welcome to Deutsch 102! This course builds upon the foundations established in D
    - Subordinate clauses
    - Relative pronouns
    - Passive voice
+   - Connecting Sentences: Subordinating Conjunctions
+   - Indirect Questions
 
 4. **Module 4: Advanced Communication**
    - Expressing opinions

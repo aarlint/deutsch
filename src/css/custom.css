@@ -28,3 +28,55 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Custom card styles */
+.card {
+  height: 100%;
+  transition: transform 0.2s ease-in-out;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.card__header {
+  padding: 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.card__header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.card__body {
+  padding: 1rem;
+}
+
+.card__body p {
+  margin-bottom: 1rem;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: var(--ifm-button-border-radius);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: white;
+  text-decoration: none;
+}

@@ -35,6 +35,45 @@ import TabItem from '@theme/TabItem';
 
 </div>
 
+## Lesson
+
+### [Lesson Section 1 Title]
+
+[Detailed explanation of the first concept]
+
+:::note Important Rule
+- [Key rule or concept]
+- [Additional rule or concept]
+:::
+
+### [Lesson Section 2 Title]
+
+[Detailed explanation of the second concept]
+
+:::tip Grammar Tip
+[Important grammar tip or reminder]
+:::
+
+### Examples
+
+<div className="practice-box">
+  **Example 1:** [German sentence]  
+  **Translation:** [English translation]
+</div>
+
+<div className="practice-box">
+  **Example 2:** [German sentence]  
+  **Translation:** [English translation]
+</div>
+
+### [Lesson Section 3 Title]
+
+[Detailed explanation of the third concept]
+
+:::note Grammar Note
+[Important grammar note]
+:::
+
 ## Interactive Practice
 
 ### 1. [Quiz Title]

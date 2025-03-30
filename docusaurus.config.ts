@@ -6,8 +6,8 @@ import path from 'path';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Deutsch Learning Hub',
+  tagline: 'Your comprehensive guide to learning German',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -79,9 +79,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Deutsch Learning Hub',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Deutsch Learning Hub Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -89,11 +89,30 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Home',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: '/docs/courses',
+          label: 'Courses',
+          position: 'left',
+        },
+        {
+          to: '/docs/grammar',
+          label: 'Grammar',
+          position: 'left',
+        },
+        {
+          to: '/docs/vocabulary',
+          label: 'Vocabulary',
+          position: 'left',
+        },
+        {
+          to: '/docs/templates',
+          label: 'Templates',
+          position: 'left',
+        },
+        {
+          href: 'https://github.com/arlint/deutsch',
           label: 'GitHub',
           position: 'right',
         },
@@ -103,11 +122,23 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Learning Resources',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Courses',
+              to: '/docs/courses',
+            },
+            {
+              label: 'Grammar',
+              to: '/docs/grammar',
+            },
+            {
+              label: 'Vocabulary',
+              to: '/docs/vocabulary',
+            },
+            {
+              label: 'Templates',
+              to: '/docs/templates',
             },
           ],
         },
@@ -115,16 +146,12 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/arlint/deutsch',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Contribute',
+              href: 'https://github.com/arlint/deutsch/blob/main/CONTRIBUTING.md',
             },
           ],
         },
@@ -132,17 +159,17 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'About',
+              to: '/docs/introduction',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/arlint/deutsch',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Deutsch Learning Hub. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
