@@ -1,0 +1,104 @@
+.progressContainer {
+  background: var(--ifm-card-background-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.progressInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.progressBarOuter {
+  width: 100%;
+  height: 8px;
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.progressBarInner {
+  height: 100%;
+  background: var(--ifm-color-primary);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progressStats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stat span:first-child {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 0.25rem;
+}
+
+.stat span:last-child {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--ifm-color-emphasis-900);
+}
+
+/* Lesson completion indicator styles */
+.lessonStatus {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: var(--ifm-color-emphasis-100);
+  margin-bottom: 1rem;
+}
+
+.lessonStatus.completed {
+  background: rgba(0, 200, 83, 0.1);
+  color: #00c853;
+}
+
+.lessonStatus.inProgress {
+  background: rgba(255, 152, 0, 0.1);
+  color: #ff9800;
+}
+
+/* Achievement badge styles */
+.achievementBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background: var(--ifm-color-primary-lighter);
+  color: white;
+  font-size: 0.9rem;
+  margin: 0.25rem;
+}
+
+.achievementBadge.gold {
+  background: linear-gradient(45deg, #ffd700, #ffa000);
+}
+
+.achievementBadge.silver {
+  background: linear-gradient(45deg, #c0c0c0, #808080);
+}
+
+.achievementBadge.bronze {
+  background: linear-gradient(45deg, #cd7f32, #8b4513);
+} 
